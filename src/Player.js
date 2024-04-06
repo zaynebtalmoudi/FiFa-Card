@@ -16,7 +16,7 @@ export default function Player ({name="Player name",team="Team Name",nationality
     }
     return (
 // 
-    <Card className="border border-2 shadow  rounded" style={{ width: '18rem', marginTop:"3rem"}}>
+    <Card className="border border-2 shadow bg-body-tertiary  rounded" style={{ width: '18rem', marginTop:"3rem"}}>
         <Container style={{marginTop:"2rem"}}>
              <Card.Img variant="top" src={require(`./images/${image}`)} style={{width:"16rem", height:"14rem",borderRadius:"50%"}}  />
         </Container>
